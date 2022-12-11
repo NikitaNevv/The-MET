@@ -1,0 +1,55 @@
+.icon {
+
+  display: block;
+  width: 100%;
+
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  text-decoration: none;
+
+  &--call {
+    
+    grid-column: 3/4;
+    background-image: url(../images/call.svg);
+  }
+
+  &--menu {
+    background-image: url(../images/burger-menu.svg);
+  }
+
+  &--cross {
+    background-image: url(../images/cross.svg);
+  }
+  
+  &__tooltip {
+    position: absolute;
+    display: block;
+    width: max-content;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    text-align: end;
+  }
+
+  &__link {
+    display: block;
+  }
+
+
+  // &__tooltip {
+  //   position: absolute;
+  //   color: #fff;
+
+  //   font-weight: 700;
+  //   text-align: end;
+  // }
+
+  // &__link {
+  //   display: block;
+  //   text-decoration: none;
+  //   color: #fff;
+  //   margin: 0 0 8px;
+  // }
+}
